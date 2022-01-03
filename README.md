@@ -37,6 +37,8 @@ After building the Darknet framework, you must execute the "get-networks.sh" scr
 $ bash get-networks.sh
 ```
 
+If the above doesn't work, go to https://drive.google.com/drive/folders/1RFtLt2oWiXfrGcZfDXTWzx6GU8U3-8GP.
+
 ## Running a simple test
 
 Use the script "run.sh" to run our ALPR approach. It requires 3 arguments:

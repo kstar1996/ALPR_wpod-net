@@ -31,9 +31,11 @@ then
 fi
 
 lp_model="data/lp-detector/wpod-net_update1.h5"
-input_dir=''
-output_dir=''
-csv_file=''
+# have to change this part
+input_dir='samples/test'
+output_dir='/tmp/output'
+csv_file='/tmp/output/results.csv
+'
 
 
 # Check # of arguments

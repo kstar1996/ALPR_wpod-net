@@ -122,6 +122,7 @@ def classify(net, meta, im):
     res = sorted(res, key=lambda x: -x[1])
     return res
 
+
 def detect(net, meta, image, thresh=.5, hier_thresh=.5, nms=.45):
     im = load_image(image, 0, 0)
     num = c_int(0)
@@ -152,6 +153,6 @@ if __name__ == "__main__":
     net = load_net("cfg/tiny-yolo.cfg", "tiny-yolo.weights", 0)
     meta = load_meta("cfg/coco.data")
     r = detect(net, meta, "data/dog.jpg")
-    print r
+    print (r)
     
 
